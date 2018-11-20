@@ -41,7 +41,7 @@ class Para:
 		self.groupNum=groupNum   #partition into k groups
 
 class LogSig:
-	def __init__(self,para,wordLL=[],loglineNum=0,termpairLLT=[],logNumPerGroup=[],groupIndex=dict(),termPairLogNumLD=[],logIndexPerGroup=[]):
+	def __init__(self,para,wordLL=[],loglineNum=0,termpairLLT=[],logNumPerGroup=[],groupIndex=dict(),termPairLogNumLD=[],logIndexPerGroup=[], dataset=0):
 		self.para=para
 		self.wordLL=[]
 		self.loglineNum=0
@@ -50,6 +50,7 @@ class LogSig:
 		self.groupIndex=dict()   #each line corresponding to which group
 		self.termPairLogNumLD=[]
 		self.logIndexPerGroup=[]
+		self.dataset=dataset
 
 	#Load datasets and use regular expression to split it and remove some columns
 	def termpairGene(self):
@@ -62,8 +63,10 @@ class LogSig:
 				if self.para.regular:
 					for currentRex in self.para.rex:
 						line=re.sub(currentRex,'',line)
-						# line=re.sub(currentRex,'core.',line) # For BGL data only
-					#line=re.sub('node-[0-9]+','node-',line) #For HPC only 
+						if (self.dataset == 1):
+							line=re.sub(currentRex,'core.',line) # For BGL data only
+					if (self.dataset == 2):
+						line=re.sub('node-[0-9]+','node-',line) #For HPC only 
 				wordSeq=line.strip().split()
 				if self.para.removable:
 					wordSeq=[word for i, word in enumerate(wordSeq) if i not in self.para.removeCol]

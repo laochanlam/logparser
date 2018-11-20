@@ -5,55 +5,54 @@ from LogSig import *
 import gc
 import numpy as np
 
+result = np.zeros((5,9))
 
-dataset = 3
-dataPath = './data/'
+for i in range(1,6,1):
 
-if dataset == 1:
-	dataName = 'BGL'
-	groupNum = 100
-	removeCol = [0,1,2,3,4,5,6,7,8,9]
-	regL = ['core\.[0-9]*']
-	# regL = []
-elif dataset == 2:
-	dataName = 'HPC'
-	groupNum = 51
-	removeCol = [0,1]
-	regL = ['([0-9]+\.){3}[0-9]']
-	# regL = []
-elif dataset == 3:
-	dataName = 'HDFS'
-	groupNum = 14
-	removeCol = [0,1,2,3,4,5]
-	regL = ['blk_(|-)[0-9]+','(/|)([0-9]+\.){3}[0-9]+(:[0-9]+|)(:|)']
-	# regL = [] 
-elif dataset == 4:
-	dataName = 'Zookeeper'
-	groupNum = 46
-	removeCol = [0,1,2,3,4,5,6]
-	regL = ['(/|)([0-9]+\.){3}[0-9]+(:[0-9]+|)(:|)']
-	# regL = []
-elif dataset == 5:
-	dataName = 'Proxifier'
-	groupNum = 6
-	removeCol = [0,1,2,4,5]
-	regL = [] 
+	dataset = i
+	dataPath = '../../data/'
 
+	if dataset == 1:
+		dataName = '2kBGL'
+		groupNum = 100
+		removeCol = [0,1,2,3,4,5,6,7,8,9]
+		regL = ['core\.[0-9]*']
+		# regL = []
+	elif dataset == 2:
+		dataName = '2kHPC'
+		groupNum = 51
+		removeCol = [0,1]
+		regL = ['([0-9]+\.){3}[0-9]']
+		# regL = []
+	elif dataset == 3:
+		dataName = '2kHDFS'
+		groupNum = 14
+		removeCol = [0,1,2,3,4,5]
+		regL = ['blk_(|-)[0-9]+','(/|)([0-9]+\.){3}[0-9]+(:[0-9]+|)(:|)']
+		# regL = []
+	elif dataset == 4:
+		dataName = '2kZookeeper'
+		groupNum = 46
+		removeCol = [0,1,2,3,4,5,6]
+		regL = ['(/|)([0-9]+\.){3}[0-9]+(:[0-9]+|)(:|)']
+		# regL = []
+	elif dataset == 5:
+		dataName = '2kProxifier'
+		groupNum = 6
+		removeCol = [0,1,2,4,5]
+		regL = []
 
-result = np.zeros((1,9))
-
-for i in range(0,1,1):
-	print ('the ', i+1, 'th experiment starts here!')
+	print ('the ', i, 'th experiment starts here!')
 	parserPara = Para(path=dataPath+dataName+'/', groupNum=groupNum, removeCol=removeCol, rex=regL, savePath='./results/')
-	myParser = LogSig(parserPara)
+	myParser = LogSig(parserPara, dataset=i)
 	runningTime = myParser.mainProcess()
 
 	parameters=prePara(groundTruthDataPath=dataPath+dataName+'/', geneDataPath='./results/')
 
 	TP,FP,TN,FN,p,r,f,RI=process(parameters)
-	result[i,:]=TP,FP,TN,FN,p,r,f,RI,runningTime
-	
-	pprint(result)
+	result[i-1,:]=TP,FP,TN,FN,p,r,f,RI,runningTime
 
 	gc.collect()
 
+pprint(result)
+np.savetxt("test.out", result, fmt="%10.10f")
