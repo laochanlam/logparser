@@ -43,11 +43,11 @@ for i in range(1,6,1):
 		regL = []
 
 	print ('the ', i, 'th experiment starts here!')
-	parserPara = Para(path=dataPath+dataName+'/', groupNum=groupNum, removeCol=removeCol, rex=regL, savePath='./results/')
+	parserPara = Para(path=dataPath+dataName+'/', groupNum=groupNum, removeCol=removeCol, rex=regL, savePath='./results/'+dataName+'/')
 	myParser = LogSig(parserPara, dataset=i)
 	runningTime = myParser.mainProcess()
 
-	parameters=prePara(groundTruthDataPath=dataPath+dataName+'/', geneDataPath='./results/')
+	parameters=prePara(groundTruthDataPath=dataPath+dataName+'/', geneDataPath='./results/'+dataName+'/')
 
 	TP,FP,TN,FN,p,r,f,RI=process(parameters)
 	result[i-1,:]=TP,FP,TN,FN,p,r,f,RI,runningTime
