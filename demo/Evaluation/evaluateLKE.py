@@ -5,7 +5,7 @@ from LKE import *
 import gc
 import numpy as np
 
-result = np.zeros((5,9))
+result = np.zeros((5,11))
 
 #LKE
 #**********************PARAMETERS SETTING**************************************************
@@ -68,11 +68,10 @@ for i in range(1,6,1):
 	myParser = LKE(parserPara, dataset=i)
 	runningTime = myParser.mainProcess()
 
-	parameters=prePara(groundTruthDataPath=dataPath+dataName+'/', geneDataPath='./results/')
+	parameters=prePara(groundTruthDataPath=dataPath+dataName+'/', geneDataPath='./results/'+dataName+'/')
 
 	TP,FP,TN,FN,p,r,f,RI=process(parameters)
-	result[i-1,:]=TP,FP,TN,FN,p,r,f,RI,runningTime
-
+	result[i-1,:]=TP,FP,TN,FN,p,r,f,RI,runningTime[0],runningTime[1],runningTime[2]
 	gc.collect()
 
 pprint(result)

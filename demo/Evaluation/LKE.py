@@ -65,10 +65,11 @@ class LKE:
 				if self.para.regular:
 					for currentRex in self.para.rex:
 						line=re.sub(currentRex,'',line)
-						if (dataset == 1):
+						if (self.dataset == 1):
 							line=re.sub(currentRex,'core.',line) # For BGL data only
-					if (dataset == 2):
+					if (self.dataset == 2):
 						line=re.sub('node-[0-9]+','node-',line) #For HPC only 
+						print("HPC!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 				wordSeq=line.strip().split()
 				if self.para.removable:
 					wordSeq=[word for i, word in enumerate(wordSeq) if i not in self.para.removeCol]
