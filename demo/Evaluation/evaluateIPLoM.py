@@ -61,4 +61,4 @@ for i in range(1,6,1):
 	gc.collect()
 
 pprint(result)
-np.savetxt("LogSig.out", result, fmt="%10.10f")
+np.savetxt("IPLoM.out", result, fmt="%10.10f")
