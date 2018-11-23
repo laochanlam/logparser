@@ -1,0 +1,14 @@
+1	BLOCK* NameSystem.addStoredBlock: blockMap updated: is added to size *
+2	Served block to
+3	BLOCK* NameSystem.allocateBlock: *
+4	Verification succeeded for
+5	BLOCK* ask to delete
+6	Got exception while serving to
+7	PacketResponder * for block terminating
+8	Received block of size * from
+9	Received block src: dest: of size 67108864
+10	BLOCK* NameSystem.delete: is added to invalidSet of
+11	Receiving block src: dest:
+12	Deleting block file *
+13	Starting thread to transfer block to
+14	BLOCK* ask to replicate to datanode(s)

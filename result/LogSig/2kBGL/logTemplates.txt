@@ -1,0 +1,100 @@
+generating
+generating
+generating
+generating
+idoproxydb hit ASSERT condition: ASSERT expression=0 Source file=idotransportmgr.cpp Source line=1043 Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)
+data address: 0x00000002
+generating
+generating
+ciod: Received signal 15, code=0, errno=0,
+generating
+generating
+floating point instr. enabled.....1
+machine state register: 0x00002000
+generating
+generating
+generating
+program interrupt:
+generating
+data TLB error interrupt
+generating
+generating
+generating
+generating
+generating
+
+generating
+generating
+generating
+generating
+generating
+generating
+Node card is not
+generating
+iar dear
+generating
+generating
+ciod: generated core files for program
+generating
+CE sym at mask
+total of ddr error(s) detected and corrected
+generating
+generating
+
+generating
+generating
+generating
+generating
+generating
+generating
+
+generating
+generating
+generating
+total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+generating
+generating
+generating
+generating
+generating
+generating
+generating
+generating
+generating
+generating
+ciod: Error reading message prefix on CioStream socket to Link has been severed
+generating
+MACHINE CHECK DCR read timeout (mc=e08x iar 0x00000000 lr 0xc00045a4)
+Lustre mount FAILED : : point /p/gb1
+generating
+generating
+instruction cache parity error corrected
+generating
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+generating
+generating
+generating
+generating
+generating
+Node card VPD check: node in processor card slot do not match. VPD ecid found
+generating
+generating
+generating
+ciod: Error loading invalid or missing program image,
+core configuration register: 0x00002000
+error(s) (dcr detected and corrected
+generating
+generating
+generating
+generating
+floating point alignment exceptions
+1 ddr errors(s) detected and corrected on rank 0, symbol bit
+generating
+generating
+data address space................0
+generating
+generating
+instruction address: 0x00004ed8
+ciod: LOGIN failed: No such file or directory
+generating
+generating

@@ -1,0 +1,111 @@
+1	generating
+2	* total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+3	0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+4	Kernel detected * integer alignment exceptions * iar * dear * * iar * dear * * iar * dear * * iar * dear * * iar * dear * * iar * dear * * iar * dear * * iar * dear *
+5	Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The 2.5 volt rail is OK. The 1.5 volt rail is OK.
+6	Node card status: ALERT 0, ALERT 1, ALERT 2, ALERT 3 is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The 2.5 volt rail is OK. The 1.5 volt rail is OK.
+7	icache prefetch *
+8	force load/store alignment...............0
+9	instruction * *
+10	minus normalized number..................0
+11	disable store gathering..................0
+12	rts internal error
+13	dbcr0=0x00000000 dbsr=0x00000000 ccr0=0x40002000
+14	problem state (0=sup,1=usr).......0
+15	byte ordering exception.....................0
+16	special purpose registers:
+17	wait state enable.................0
+18	lr:00004ed0 cr:28244842 xer:20000002 ctr:00086000
+19	fpr29=0xffffffff ffffffff ffffffff ffffffff
+20	program interrupt: unimplemented operation..0
+21	program interrupt: illegal *
+22	floating point instr. enabled.....1
+23	iar * dear *
+24	program interrupt: trap instruction.........0
+25	data TLB error interrupt
+26	critical input interrupt enable...0
+27	r24=0x0ffea4c8 r25=0x00000003 r26=0x0000000f r27=0xffffd000
+28	program interrupt: imprecise exception......0
+29	program interrupt: privileged instruction...0
+30	* double-hummer alignment exceptions
+31	Machine State Register: 0x0002f900
+32	program interrupt: fp cr update.............0
+33	instruction cache parity error corrected
+34	* floating point alignment exceptions
+35	guaranteed * cache block *
+36	rts panic! - stopping execution
+37	NodeCard is not fully functional
+38	Node card is not fully functional
+39	rts: kernel terminated for reason *
+40	suppressing further interrupts of same type
+41	program interrupt: fp cr field .............0
+42	floating pt ex mode * enable......0
+43	data store interrupt caused by *
+44	ciod: Received signal 15, code=0, errno=0, *
+45	CE sym * at * mask *
+46	size of scratchpad portion of L3.........0 (0M)
+47	total of * ddr error(s) detected and corrected
+48	Lustre mount FAILED : * : point /p/gb1
+49	data cache search parity error detected. attempting to correct
+50	3 L3 EDRAM error(s) (dcr 0x0157) detected and corrected
+51	Lustre mount FAILED : * : block_id : location
+52	MACHINE CHECK DCR read timeout (mc=e08x iar 0x00000000 lr 0xc00045a4)
+53	NFS Mount failed on * slept 15 seconds, retrying (1)
+54	critical input interrupt (unit=0x0b * warning for torus * wire
+55	New ido chip inserted into the database: * * * *
+56	total of * ddr error(s) detected and corrected over * seconds
+57	* tree receiver 2 in re-synch state event(s) (dcr 0x019a) detected
+58	* torus receiver * input pipe error(s) (dcr * detected and corrected
+59	2 L3 EDRAM error(s) (dcr 0x0157) detected and corrected over 282 seconds
+60	ciod: Error loading * invalid or missing program image, Exec format error
+61	ciod: failed to read message prefix on control stream (CioStream socket to *
+62	* ddr errors(s) detected and corrected on rank 0, symbol * bit *
+63	idoproxydb hit ASSERT condition: ASSERT expression=0 Source file=idotransportmgr.cpp Source line=1043 Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)
+64	* ddr error(s) detected and corrected on rank 0, symbol * over * seconds
+65	PrepareForService shutting down NodeCard(mLctn(R25-M1-N2), mCardSernum(203231503833343000000000594c31304b34333431303158), mLp(FF:F2:9F:16:CF:0F:00:0D:60:E9:30:F0), mIp(10.2.2.80), mType(4)) as part of Service Action 310
+66	* tree receiver 1 in re-synch state event(s) (dcr 0x0185) detected over * seconds
+67	* torus sender z- retransmission error(s) (dcr 0x02f9) detected and corrected over * seconds
+68	Ido chip status changed: * * * * status=M * * * * PDT 2005
+69	PrepareForService shutting down Node card(mLctn(R10-M1-N2), mCardSernum(203231503833343000000000594c31304b34323934303257), mLp(FF:F2:9F:16:E0:DA:00:0D:60:E9:1F:25), mIp(10.1.1.164), mType(4)) as part of Service Action 648
+70	rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=42315, cpu=105, index=1207960804, total=2691015
+71	critical input interrupt (unit=0x0b * warning for * * wire, suppressing further interrupts of same type
+72	Node card VPD check: * node in processor card slot * do not match. VPD ecid * found *
+73	rts: bad message header: expecting type 57 instead of type 3 (softheader=00131db8 81aa0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+74	ciod: In packet from node 91.0 (R62-M1-Nf-C:J03-U11), message code 2 is not 3 or 4294967295 (softheader=003b005b 00030000 00000001 00000000)
+75	rts tree/torus link training failed: wanted: B C X+ X- Y+ Y- Z+ Z- got: B C X- Y- Z+ Z-
+76	Error receiving packet on tree network, expecting type 57 instead of type 3 * * 00000002 00000000) * PSR1=00000000 PRXF=00000002 PIXF=00000007
+77	fraction rounded.........................0
+78	shutdown complete
+79	program interrupt
+80	auxiliary processor.........................0
+81	store operation.............................1
+82	machine check: i-fetch......................0
+83	machine check enable..............0
+84	debug interrupt enable............0
+85	debug wait enable.................0
+86	data address: 0x00000002
+87	data storage interrupt
+88	data address space................0
+89	machine state register: 0x00002000
+90	core configuration register: 0x00002000
+91	exception syndrome register: *
+92	ciod: LOGIN chdir(/p/gb1/stella/RAPTOR/2183) failed: Input/output error
+93	ciod: pollControlDescriptors: Detected the debugger died.
+94	ciod: generated * core files for program *
+95	Can not get assembly information for node card
+96	ciod: LOGIN * failed: No such file or directory
+97	ciod: Message code 0 is not 51 or 4294967295
+98	ciod: cpu 0 at treeaddr 438 sent unrecognized message 0xffffffff
+99	ciod: Error creating node map from file /home/pakin1/sweep3d-2.2b/results/random1-8x32x32x2.map: Permission denied
+100	ciod: Error creating node map from file /p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-xyzt/xyzt.map: Block device required
+101	ciod: Error creating node map from file /p/gb2/cabot/miranda/newmaps/8k_128x64x1_8x4x4.map: No child processes
+102	ciod: Error loading * invalid or missing program image, Permission denied
+103	ciod: Error loading /g/g24/buber/Yunsic/BlueGene/partad.develf/taddriver.32.exe: program image too big, 361544528 > 266076160
+104	ciod: Error creating node map from file /p/gb2/welcome3/32k_128x256x1_8x4x4.map: Bad file descriptor
+105	ciod: Error reading message prefix on CioStream socket to * Connection timed out
+106	ciod: Missing or invalid fields on line 1 of node map file *
+107	ciod: Error loading * invalid or missing program image, No such file or directory
+108	ciod: Error reading message prefix on CioStream socket to * * * * *
+109	ciod: duplicate canonical-rank 31 to logical-rank 0 mapping at line 3 of node map file /p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-sweep/sweep.map
+110	ciod: Z coordinate 32 exceeds physical dimension 32 at line 33 of node map file /p/gb2/pakin1/contention-32768cpes-torus/xyzt-1x1x32768x1.map
+111	ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to * Link has been severed

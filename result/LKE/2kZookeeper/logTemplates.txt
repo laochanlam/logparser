@@ -1,0 +1,30 @@
+Notification time out:
+Send worker leaving thread
+Interrupted while waiting for message on queue
+Connection broken for id my id = error =
+Closed socket connection for client
+caught end of stream exception
+Client attempting to session at
+Established session with negotiated timeout for client
+Accepted socket connection from
+Connection request from old client ; will be dropped if server is in r-o mode
+Cannot open channel to at election address
+- Processed session termination for sessionid:
+Expiring session timeout of exceeded
+******* GOODBYE ********
+My election bind port:
+Have smaller server identifier, so dropping the connection: (2, 1)
+New election. My id = 1, proposed zxid=0x700000000
+FOLLOWING - LEADER ELECTION TOOK -
+Notification: (n.leader), (n.zxid), (n.round), (n.state), (n.sid), (n.peerEPoch), (my state)
+set to
+Server environment:zookeeper.version=3.4.5--1, built on 06/10/2013 17:26 GMT
+Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+Notification: 2 (n.leader), (n.zxid), (n.round), (n.state), 1 (n.sid), (n.peerEPoch), (my state)
+Unexpected exception causing shutdown while sock still open
+- Got user-level KeeperException when processing sessionid:0x34ed93485090001 type:create cxid:0x55b8bb0f zxid:0x100000010 txntype:-1 reqpath:n/a Error Path:/home/curi/.zookeeper Error:KeeperErrorCode = NodeExists for /home/curi/.zookeeper
+Snapshotting: to
+Follower sid: 3 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@33557fe4
+Have quorum of supporters; starting up and setting last processed zxid: 0xb00000000
+shutdown of request processor complete
+Getting a snapshot from leader

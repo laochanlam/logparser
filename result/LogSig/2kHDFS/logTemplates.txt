@@ -1,0 +1,14 @@
+Deleting block file
+Receiving block src: dest:
+Verification succeeded for
+Received block of size from
+Receiving block src: dest:
+Received block of size 67108864 from
+PacketResponder 0 for block terminating
+BLOCK* ask to delete
+Served block to
+Got exception while serving to
+BLOCK* NameSystem.delete: is added to invalidSet of
+BLOCK* NameSystem.addStoredBlock: blockMap updated: is added to size 67108864
+BLOCK* NameSystem.allocateBlock:
+PacketResponder 1 for block terminating

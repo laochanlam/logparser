@@ -1,0 +1,58 @@
+* * * - INFO [*] - * 
+* 2015-08-25 * - INFO * - * 
+* 2015-0* * - INFO * - Server environment:* 
+* 2015-08-10 1* - INFO [*] - * 
+* 2015-07-31 * - INFO [*] - * 
+* 2015-07-30 * - INFO * - * 
+* 2015-07-31 * - INFO * - * * * from * 
+* 2015-07-31 * - INFO * - * * to * 
+* 2015-07-30 * - INFO * - * * to * 
+12* 2015-07-29 * - INFO [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@*] - * * *tion * * * 
+* 2015-07-29 * - ERROR [*] - Unexpected * 
+7* 2015-07-29 19:* - WARN [LearnerHandler-/10.10.34.1*:LearnerHandler@575] - ******* GOODBYE /10.10.34.1* ******** 
+* * 1* - INFO [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.1* 
+* 2015-07-29 19:* - WARN [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker 
+1* 2015-07-29 19:* - INFO [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.1* 
+* 2015-07-29 19:* - WARN * - Send worker leaving thread 
+* 2015-07-29 19:* - INFO [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.1* 
+* * * - INFO [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /10.10.34.* 
+* 2015-07-29 * - INFO [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@83*] - Client attempting to * * * at /10.10.34.* 
+* 2015-07-29 19:* - INFO [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.1* 
+* 2015-08-25 * - INFO [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@774] - Notification time out: 60000 
+6* 2015-08-24 * - INFO [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@774] - Notification time out: 60000 
+* 2015-07-30 1* - INFO [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /10.10.34.* 
+* 2015-07-29 * - INFO [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /10.10.34.* 
+* 2015-07-29 19:* - WARN [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread 
+1* * * - INFO [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x* 
+* * * - INFO [SessionTracker:ZooKeeperServer@325] - Expiring session 0x*, timeout of 10000ms exceeded 
+* 2015-07-30 * - INFO [SessionTracker:ZooKeeperServer@325] - Expiring session 0x*, timeout of * exceeded 
+* 2015-07-30 * - INFO * cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x* 
+* 2015-07-30 * - WARN [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception 
+* 2015-0* * - INFO [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /10.10.34.* 
+13* 2015-07-31 * - INFO [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x* 
+13* 2015-07-31 * - INFO [SessionTracker:ZooKeeperServer@325] - Expiring session 0x*, timeout of 10000ms exceeded 
+1* 2015-07-30 1* - INFO [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x* 
+12* 2015-07-29 * - INFO [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x* 
+* 2015-07-30 * - INFO [SessionTracker:ZooKeeperServer@325] - Expiring session 0x*, timeout of 10000ms exceeded 
+* 2015-0* * - WARN * - Cannot open channel to 3 at election address /10.10.34.13:3888 
+13* 2015-07-30 * - INFO [CommitProcessor:2:ZooKeeperServer@595] - Established session 0x24ed* with negotiated timeout * for client /10.10.34.* 
+7* 2015-07-29 19:* - ERROR [LearnerHandler-/10.10.34.1*:LearnerHandler@562] - Unexpected exception causing shutdown while sock still open 
+* 2015-0* * - INFO * - Notification: * (n.leader), 0x* (n.zxid), 0x* (n.round), *ING (n.state), * (n.sid), 0x* (n.peerEPoch), * (my state) 
+* 2015-07-30 * - INFO [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /10.10.34.* 
+* 2015-07-29 19:* - WARN [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue 
+* * * - INFO * - Notification: * (n.leader), 0x* (n.zxid), * (n.round), LOOKING (n.state), * (n.sid), * (n.peerEPoch), *ING (my state) 
+13* 2015-07-30 * - INFO [CommitProcessor:2:ZooKeeperServer@595] - Established session 0x24ed* with negotiated timeout 10000 for client /10.10.34.* 
+* 2015-08-25 * - WARN * - Cannot open channel to 3 at election address /10.10.34.13:3888 
+6* 2015-08-24 * - WARN [*:QuorumCnxManager@368] - Cannot open channel to 3 at election address /10.10.34.13:3888 
+* 2015-07-31 * - INFO [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /10.10.34.* which had sessionid 0x* 
+* 2015-07-30 * - INFO [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /10.10.34.* which had sessionid 0x* 
+* 2015-08-25 0* - WARN [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 2 at election address /10.10.34.12:3888 
+* 2015-08-25 * - WARN [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 3 at election address /10.10.34.13:3888 
+6* 2015-08-24 * - WARN [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 2 at election address /10.10.34.12:3888 
+6* 2015-08-24 * - WARN [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 3 at election address /10.10.34.13:3888 
+1* 2015-07-29 19:* - WARN [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
+* 2015-07-29 19:* - WARN [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
+* 2015-07-29 19:* - WARN [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
+* * * - WARN [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /10.10.34.*; will be dropped if server is in r-o mode 
+* 2015-07-31 * - WARN [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /10.10.34.*; will be dropped if server is in r-o mode 
+* 2015-07-30 * - WARN [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /10.10.34.*; will be dropped if server is in r-o mode 

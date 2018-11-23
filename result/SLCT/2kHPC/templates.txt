@@ -1,0 +1,15 @@
+* * node-* node temperature 1* 1 * 
+* * node-D* clusterfilesystem * 1* 1 ClusterFileSystem: * * * * * * * * 
+* * * gige temperature 1* 1 warning 
+* * node-* node status * 1 running 
+* * gige7 gige temperature 1* 1 warning 
+* * gige7 gige temperature 1* 1 normal 
+* * node-* node status 1* 1 configured out 
+* * node-* node status 1* 1 not responding 
+* * node-* action start 1* 1 wait (command *) 
+* * node-* action start 1* 1 boot (command *) 
+1* * * switch_module error 1* 1 Linkerror event interval expired 
+1* * Interconnect-1N03 switch_module error 1* 1 Linkerror event interval expired 
+1* * Interconnect-1N01 switch_module error 10* 1 Linkerror event interval expired 
+2* * Interconnect-0N00 switch_module fan 11* 1 Fan speeds ( 3552 3534 3375 **** 3515 3479 ) 
+* * node-* unix.hw net.niff.up 1* 1 NIFF: node node-* has detected an available network connection on network *.0 via interface *0 

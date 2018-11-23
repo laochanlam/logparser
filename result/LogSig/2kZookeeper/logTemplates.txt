@@ -1,0 +1,46 @@
+
+Server environment:os.name=Linux
+Expiring session 0x34ed9ac1c1e0065, timeout of 20000ms exceeded
+Client attempting to establish new session at
+Unexpected Exception:
+Accepted socket connection from
+Closed socket connection for client (no session established for client)
+FOLLOWING - LEADER ELECTION TOOK - 49
+- Processed session termination for sessionid:
+Connection request from old client ; will be dropped if server is in r-o mode
+Notification: 3 (n.leader), 0x100001564 (n.zxid), 0x3 (n.round), FOLLOWING (n.state), 3 (n.sid), 0x2 (n.peerEPoch), FOLLOWING (my state)
+Established session with negotiated timeout 10000 for client
+Connection broken for id 188978561024, my id = error =
+Interrupted while waiting for message on queue
+autopurge.snapRetainCount set to 3
+******* GOODBYE ********
+Received connection request
+caught end of stream exception
+Closed socket connection for client which had sessionid
+Follower sid: 3 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@33557fe4
+Server environment:java.vendor=Oracle Corporation
+Cannot open channel to 2 at election address
+minSessionTimeout set to -1
+Snapshotting: 0x300000dcd to /var/lib/zookeeper/version-2/snapshot.300000dcd
+Unexpected exception causing shutdown while sock still open
+Interrupting SendWorker
+Notification time out: 60000
+Revalidating client: 0x14f05578bd80018
+Accepted socket connection from
+Server environment:user.name=zookeeper
+Revalidating client: 0x24f0557806a001c
+Client attempting to renew session at
+Closed socket connection for client which had sessionid
+caught end of stream exception
+Revalidating client: 0x14f05578bd80013
+Received connection request
+Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+Starting quorum peer
+Snapshotting: 0x50000062e to /var/lib/zookeeper/version-2/snapshot.50000062e
+Getting a snapshot from leader
+LOOKING
+Notification: 3 (n.leader), (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), (n.peerEPoch), LOOKING (my state)
+Expiring session timeout of 10000ms exceeded
+First is 0x0
+autopurge.purgeInterval set to 0
+Send worker leaving thread

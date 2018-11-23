@@ -1,0 +1,46 @@
+1	Connection broken for id * my id = * error =
+2	Connection request from old client ; will be dropped if server is in r-o mode
+3	Notification: * (n.leader), * (n.zxid), * (n.round), * (n.state), * (n.sid), * (n.peerEPoch), * (my state)
+4	- Got user-level KeeperException when processing sessionid:0x34ed93485090001 type:create cxid:0x55b8bb0f zxid:0x100000010 txntype:-1 reqpath:n/a Error Path:/home/curi/.zookeeper Error:KeeperErrorCode = NodeExists for /home/curi/.zookeeper
+5	LOOKING
+6	FOLLOWING
+7	Received connection request
+8	Revalidating client: *
+9	Server environment:java.vendor=Oracle Corporation
+10	******* GOODBYE ********
+11	Reading snapshot /var/lib/zookeeper/version-2/snapshot.b00000084
+12	Starting quorum peer
+13	First is 0x0
+14	My election bind port:
+15	Notification time out: *
+16	Accepted socket connection from
+17	Send worker leaving thread
+18	caught end of stream exception
+19	shutdown of request processor complete
+20	Getting a snapshot from leader
+21	Expiring session * timeout of * exceeded
+22	- Processed session termination for sessionid: *
+23	Interrupted while waiting for message on queue
+24	Server environment:zookeeper.version=3.4.5--1, built on 06/10/2013 17:26 GMT
+25	Follower sid: 3 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@33557fe4
+26	Client attempting to * * * at
+27	FOLLOWING - LEADER ELECTION TOOK - *
+28	New election. My id = 1, proposed zxid=0x700000000
+29	Cannot open channel to * at election address
+30	Unexpected exception causing shutdown while sock still open
+31	Established session * with negotiated timeout * for client
+32	Closed socket connection for client which had sessionid *
+33	Closed socket connection for client (no session established for client)
+34	Have smaller server identifier, so dropping the connection: (2, 1)
+35	Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+36	Have quorum of supporters; starting up and setting last processed zxid: 0xb00000000
+37	Sending DIFF
+38	Interrupting SendWorker
+39	Server *
+40	Unexpected Exception:
+41	minSessionTimeout set to -1
+42	autopurge.purgeInterval set to 0
+43	maxSessionTimeout set to -1
+44	tickTime set to 2000
+45	autopurge.snapRetainCount set to 3
+46	Snapshotting: * to *

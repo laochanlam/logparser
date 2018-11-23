@@ -1,0 +1,51 @@
+node- action start 1 clusterAddMember (command
+node- node temperature 1
+node- unix.hw net.niff.up 1 NIFF: node node- has detected an available network connection on network via interface ee0
+node- unix.hw net.niff.up 1 NIFF: node node- has detected an available network connection on network via interface ee0
+node- unix.hw state_change.unavailable 1 Component State Change: Component \042alt0\042 is in the unavailable state
+node- 1 node- network network
+Interconnect-0N02 switch_module control 1101771720 1 power/control problem
+gige7 gige temperature 1 critical
+Interconnect-1N01 switch_module error 1 Link ok
+node- unix.hw net.niff.up 1 NIFF: node node- has detected an available network connection on network via interface ee0
+node- action start 1 boot (command
+node-D0 clusterfilesystem clusterfilesystem.no_server 1 ClusterFileSystem: There is no server for ServerFileSystem domain
+gige temperature 1 warning
+node- action error 1074121927 1 risBoot (command 1903) Error: Timed out while waiting for SRM prompt: <ABORT code completed>
+node- node psu 1 psu failure\ ambient=28
+node- unix.hw net.niff.up 1079048409 1 NIFF: node node- has detected an available network connection on network via interface alt0
+node- unix.hw net.niff.up 1126813684 1 NIFF: node node- has detected an available network connection on network via interface alt0
+node- unix.hw net.niff.up 1095346545 1 NIFF: node node- has detected an available network connection on network via interface ee0
+node-D0 clusterfilesystem fdmn.panic 1131228351 1 ServerFileSystem: An ServerFileSystem domain panic has occurred on storage442
+node- unix.hw net.niff.up 1 NIFF: node node- has detected an available network connection on network via interface alt0
+node- unix.hw net.niff.up 1100786337 1 NIFF: node node- has detected an available network connection on network via interface ee0
+3504 boot_cmd abort 1111858191 1 Command has been aborted
+Interconnect-1N01 switch_module error 1 Link in reset
+Interconnect-1T01 switch_module error 1 link errors remain current
+boot_cmd new 1 Targeting and nodes:node-
+switch_module error 1 Linkerror event interval expired
+boot_cmd success 1 Command has completed successfully
+full partition status 1 running
+clusterfilesystem clusterfilesystem.not_served 1 ClusterFileSystem: ServerFileSystem domain is no longer served by node node-
+Interconnect-1T00 switch_module bcast-error 1 Link error
+Interconnect-0N00 switch_module fan 1 Fan speeds ( 3552 3534 3375 **** 3515 3479 )
+node- unix.hw net.niff.up 1111856616 1 NIFF: node node- has detected an available network connection on network via interface ee0
+node- action start 1 halt (command
+clusterfilesystem fdmn.full 1 ServerFileSystem: ServerFileSystem domain is full
+node- node temperature 1
+node- node status 1 not responding
+node- unix.hw net.niff.up 1077879014 1 NIFF: node node- has detected an available network connection on network via interface ee0
+switch_module error 1 Linkerror event interval expired
+node- unix.hw net.niff.up 1111072309 1 NIFF: node node- has detected an available network connection on network via interface ee0
+boot_cmd new 1 Targeting and child of command
+domain status 1 not responding
+node- node status 1 configured out
+node- action start 1 wait (command
+Interconnect-0T00 switch_module bcast-error 1 Link error
+gige temperature 1 normal
+node- node status 1 running
+Interconnect-1N01 switch_module error 1 Linkerror event interval expired
+node- unix.hw net.niff.up 1 NIFF: node node- has detected an available network connection on network via interface alt0
+node- unix.hw net.niff.down 1142550442 1 NIFF: node node- detected a failed network connection on network via interface alt0
+Interconnect-0N00 switch_module temphigh 1129813980 1 Temperature (41C) exceeds warning threshold
+node--tc6 tserver status 1085921002 1 not-responding

@@ -1,0 +1,14 @@
+close, bytes sent, bytes received, lifetime
+open through proxy proxy.cse.cuhk.edu.hk:8000 HTTPS
+chrome.exe close, bytes KB) sent, bytes KB) received, lifetime
+Wiz.exe close, bytes KB) sent, bytes KB) received, lifetime 01:05
+Dropbox.exe close, 1013 bytes sent, 4704 bytes (4.59 KB) received, lifetime 01:01
+MSIEXEC.EXE close, 250 bytes sent, 2379 bytes (2.32 KB) received, lifetime <1 sec
+putty.exe close, 89652 bytes (87.5 KB) sent, 599249 bytes (585 KB) received, lifetime 37:51
+error : the
+SGPicFaceTool.exe close, 565 bytes sent, 8502 bytes (8.30 KB) received, lifetime 02:00
+Warning do not originate from the applications. A third party network filter (e.g. antivirus) is detected.
+QQExternal.exe close, 2519 bytes (2.45 KB) sent, 770 bytes received, lifetime 01:06
+GitHub.exe close, bytes sent, bytes KB) received, lifetime
+GitHub.exe close, 1901 bytes (1.85 KB) sent, 3566 bytes (3.48 KB) received, lifetime 01:17
+Skype.exe close, bytes KB) sent, bytes KB) received, lifetime

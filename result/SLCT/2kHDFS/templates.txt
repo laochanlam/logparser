@@ -1,0 +1,43 @@
+11* 081111 0* 1* INFO dfs.DataNode$DataXceiver: 10.25*:50010 Served block blk_* to /10.25* 
+* 081110 * * INFO dfs.DataNode$DataXceiver: 10.25*:50010 Served block blk_* to /10.25* 
+* 081111 * * INFO dfs.DataNode$DataXceiver: Receiving block blk_* src: /10.25* dest: /10.25*:50010 
+1* 081111 0* 18 INFO dfs.FSDataset: Deleting block blk_* file /mnt/hadoop/dfs/data/current/* 
+1* 081111 * 19 INFO dfs.FSDataset: Deleting block blk_* file /mnt/hadoop/dfs/data/current/* 
+* 081110 * 19 INFO dfs.FSDataset: Deleting block blk_* file /mnt/hadoop/dfs/data/current/* 
+* 081110 * * WARN dfs.DataNode$DataXceiver: 10.25*:50010:Got exception while serving blk_* to /10.25*: 
+* 081110 * 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_* 
+* 081110 * * INFO dfs.DataNode$DataXceiver: Receiving block blk_* src: /10.25* dest: /10.25*:50010 
+* 081109 2* * WARN dfs.DataNode$DataXceiver: 10.25*:50010:Got exception while serving blk_* to /10.25*: 
+* 081109 2* * INFO dfs.DataNode$DataXceiver: Receiving block blk_* src: /10.25* dest: /10.25*:50010 
+1* 081111 * * INFO dfs.DataNode$PacketResponder: PacketResponder 0 for block blk_* terminating 
+1* 081111 * * INFO dfs.DataNode$PacketResponder: PacketResponder 2 for block blk_* terminating 
+1* 081111 * * INFO dfs.DataNode$PacketResponder: PacketResponder 1 for block blk_* terminating 
+* 081110 * * INFO dfs.DataNode$PacketResponder: PacketResponder 2 for block blk_* terminating 
+* 081110 * * INFO dfs.DataNode$PacketResponder: PacketResponder 0 for block blk_* terminating 
+* 081110 * * INFO dfs.DataNode$PacketResponder: PacketResponder 1 for block blk_* terminating 
+1* 081111 * * INFO dfs.DataNode$PacketResponder: Received block blk_* of size 67108864 from /10.25* 
+* 081110 * * INFO dfs.DataNode$PacketResponder: Received block blk_* of size 67108864 from /10.25* 
+* 081109 2* * INFO dfs.DataNode$PacketResponder: Received block blk_* of size 67108864 from /10.25* 
+15* 081111 * 26 INFO dfs.FSNamesystem: BLOCK* NameSystem.delete: blk_* is added to invalidSet of 10.25*:50010 
+1* 081111 * 29 INFO dfs.FSNamesystem: BLOCK* NameSystem.delete: blk_* is added to invalidSet of 10.25*:50010 
+13* 081111 * 35 INFO dfs.FSNamesystem: BLOCK* NameSystem.delete: blk_* is added to invalidSet of 10.25*:50010 
+1* 081111 0* 28 INFO dfs.FSNamesystem: BLOCK* NameSystem.delete: blk_* is added to invalidSet of 10.25*:50010 
+1* 081111 0* 27 INFO dfs.FSNamesystem: BLOCK* NameSystem.delete: blk_* is added to invalidSet of 10.25*:50010 
+* 081110 * 32 INFO dfs.FSNamesystem: BLOCK* NameSystem.delete: blk_* is added to invalidSet of 10.25*:50010 
+8* 081110 210* 28 INFO dfs.FSNamesystem: BLOCK* NameSystem.delete: blk_* is added to invalidSet of 10.25*:50010 
+* 081110 103* 30 INFO dfs.FSNamesystem: BLOCK* NameSystem.delete: blk_* is added to invalidSet of 10.25*:50010 
+* 081110 * 34 INFO dfs.FSNamesystem: BLOCK* NameSystem.delete: blk_* is added to invalidSet of 10.25*:50010 
+1* 081111 * 34 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.25*:50010 is added to blk_* size 67108864 
+1* 081111 0* 28 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.25*:50010 is added to blk_* size 67108864 
+1* 081111 0* 26 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.25*:50010 is added to blk_* size 67108864 
+1* 081111 * 30 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.25*:50010 is added to blk_* size 67108864 
+1* 081111 * 35 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.25*:50010 is added to blk_* size 67108864 
+1* 081111 0* 27 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.25*:50010 is added to blk_* size 67108864 
+1* 081111 * 31 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.25*:50010 is added to blk_* size 67108864 
+* 081110 * 31 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.25*:50010 is added to blk_* size 67108864 
+* 081110 * 26 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.25*:50010 is added to blk_* size 67108864 
+* 081110 * 32 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.25*:50010 is added to blk_* size 67108864 
+* 081110 * 27 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.25*:50010 is added to blk_* size 67108864 
+* 081110 * 29 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.25*:50010 is added to blk_* size 67108864 
+* 081110 * 34 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.25*:50010 is added to blk_* size 67108864 
+* 081110 * 28 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.25*:50010 is added to blk_* size 67108864 
