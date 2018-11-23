@@ -1,6 +1,6 @@
 from numpy import *
 import re
-from pprint import pprint 
+from pprint import pprint
 from glob import *
 import math
 #**********************PARAMETERS SETTING For LogSig**************************************************
@@ -11,7 +11,7 @@ import math
 #***********************************For SLCT ONLY**************************************************
 
 class prePara:
-	def __init__(self,groundTruthDataPath='../../../Sca/',dataname='Sca/',logName='rawlog.log',groundTruthTempName='templates.txt',
+	def __init__(self,groundTruthDataPath='../../../../data/',dataname='2kHDFS/',logName='rawlog.log',groundTruthTempName='templates.txt',
 	groundTruthGroupNamePat='template',geneDataPath='./results_TTT/',geneTempName='logTemplates.txt',geneGroupNamePat='template',beta=1):
 		self.groundTruthDataPath=groundTruthDataPath
 		self.dataname=dataname
@@ -22,7 +22,7 @@ class prePara:
 		self.geneTempName=geneTempName
 		self.geneGroupNamePat=geneGroupNamePat
 		self.beta=beta
-		
+
 def process(prePara):
 	logNum=0
 	with open(prePara.groundTruthDataPath+prePara.dataname+prePara.logName) as lines:
@@ -40,7 +40,7 @@ def process(prePara):
 	geneFilePath=prePara.geneDataPath+prePara.dataname+prePara.geneGroupNamePat
 	print(geneFilePath)
 	fileNum=len(glob(geneFilePath+'[0-9]*.txt'))
-	geneClusterLabel=list()  #geneClusterLabel is a list of dictionary, for each group by algorithm, 
+	geneClusterLabel=list()  #geneClusterLabel is a list of dictionary, for each group by algorithm,
 	#it has a dictionary, with key of ID, value of label from groundtruth
 	geneLogNumOfEachGroup=zeros((fileNum,1))
 	print 'there are altogether',fileNum, 'files'

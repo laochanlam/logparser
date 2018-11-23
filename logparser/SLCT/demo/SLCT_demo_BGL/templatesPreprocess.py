@@ -5,7 +5,7 @@ import time
 import multiprocessing
 
 class tempPara:
-	def __init__(self,path='../../../Sca/SLCT_Processed/',dataname='Sca/',logname='new_rawlog.log',savePath='./results_TTT/',
+	def __init__(self,path='../../../../data/',dataname='2kHDFS',logname='rawlog.log',savePath='./results_TTT/',
 		templateName='templates.txt',geneGroupNamePat='template',outlierName='outliers.log'):
 		self.path=path
 		self.dataname=dataname
