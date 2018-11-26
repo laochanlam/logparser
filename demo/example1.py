@@ -1,21 +1,21 @@
 #In this demo, the rawlog.log file is the HDFS data set logs.
 #If you want to test on other data sets or using other parsers, please modify the parameters in this file or in the parser source file
 
-from LogSig import *
+from IPLoM import *
 
-RawLogPath = './'
+RawLogPath = '../data/HDFS/'
 RawLogFile = 'rawlog.log'
 OutputPath = './results/'
 
 #Note: you need to set some other parameters when you try other parsers or data sets
 #For example, the structured columns "removeCol" (e.g., timestamp column) that will be removed before parsing. For each data set, the structure columns are different. Wrong removeCol may result in wrong parsing results. 
 #All parameter setting in our experiments are attached as comments.
-para=Para(path=RawLogPath, logname=RawLogFile, savePath=OutputPath)
+para=Para(path=RawLogPath, logname=RawLogFile, savePath=OutputPath, CT = 0.35, lowerBound = 0.25, removeCol = [0,1,2,3,4], rex = ['blk_(|-)[0-9]+','(/|)([0-9]+\.){3}[0-9]+(:[0-9]+|)(:|)'])
 
-myparser=LogSig(para)
+myparser=IPLoM(para)
 time=myparser.mainProcess()
 
-print ('The running time of LogSig is', time)
+print ('The running time of IPLoM is', time)
 
 
 
